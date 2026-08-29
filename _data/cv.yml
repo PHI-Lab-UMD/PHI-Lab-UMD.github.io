@@ -1,176 +1,147 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Tianzhou (Charles) Ma
-    - name: Position
-      value: Associate Professor of Biostatistics
-    - name: Office
-      value: Room 1433, Atlantic Building (ATL 224), University of Maryland, College Park, MD 20742
-    - name: Email
-      value: tma0929@umd.edu
-    - name: Phone
-      value: (301) 405-6421
-    - name: Languages
-      value: English, Chinese
+cv:
+  name: Tianzhou (Charles) Ma
+  location: College Park, MD
+  email: tma0929@umd.edu
+  phone: "+1-301-405-6421"
+  social_networks:
+    - network: GoogleScholar
+      username: V8o30rYAAAAJ
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD in Biostatistics
-      institution: University of Pittsburgh, Pittsburgh, PA
-      year: 2018
-      description:
-        - "Thesis: Differential expression and feature selection in the analysis of multiple omics studies."
-        - "Advisors: George C. Tseng, ScD and Zhao Ren, PhD"
-    - title: MS in Biostatistics
-      institution: Yale University, New Haven, CT
-      year: 2013
-      description:
-        - "Thesis: Incorporating functional annotation information in prioritizing disease associated SNPs from genome wide association studies."
-        - "Advisor: Hongyu Zhao, PhD"
-    - title: Honours BSc in Genes, Genetics and Biotechnology
-      institution: University of Toronto, Toronto, ON, Canada
-      year: 2010
-      description:
-        - Specialist program, with High Distinction (Summa Cum Laude)
+  sections:
+    summary:
+      - Associate Professor of Biostatistics at the University of Maryland School of Public Health, and co-director of the Precision Health Intelligence (PHI) Lab. My work develops statistical and machine learning methods for genetics, multi-omics integration and high-dimensional data, applied across neuroscience, cancer, addiction and population health.
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Associate Professor of Biostatistics
-      institution: Department of Epidemiology and Biostatistics, University of Maryland, College Park
-      year: 2024 - now
-    - title: Assistant Professor of Psychiatry
-      institution: Maryland Psychiatric Research Center, University of Maryland School of Medicine, Baltimore
-      year: 2024 - now
-    - title: Associate Member
-      institution: University of Maryland Marlene and Stewart Greenebaum Comprehensive Cancer Center
-      year: 2021 - now
-    - title: Affiliate
-      institution: Maryland Population Research Center, University of Maryland, College Park
-      year: 2018 - now
-    - title: Assistant Professor of Biostatistics
-      institution: Department of Epidemiology and Biostatistics, University of Maryland, College Park
-      year: 2018 - 2024
+    education:
+      - institution: University of Pittsburgh
+        area: Biostatistics
+        degree: PhD
+        location: Pittsburgh, PA
+        start_date: 2013-09
+        end_date: 2018-04
+        highlights:
+          - "Thesis: Differential expression and feature selection in the analysis of multiple omics studies."
+          - "Advisors: George C. Tseng, ScD and Zhao Ren, PhD"
+      - institution: Yale University
+        area: Biostatistics
+        degree: MS
+        location: New Haven, CT
+        start_date: 2011-09
+        end_date: 2013-05
+        highlights:
+          - "Thesis: Incorporating functional annotation information in prioritizing disease associated SNPs from genome wide association studies."
+          - "Advisor: Hongyu Zhao, PhD"
+      - institution: University of Toronto
+        area: Genes, Genetics and Biotechnology
+        degree: BSc
+        location: Toronto, Canada
+        start_date: 2006-09
+        end_date: 2010-06
+        highlights:
+          - Honours specialist program, with High Distinction (Summa Cum Laude)
 
-- title: Research Interests
-  type: nested_list
-  contents:
-    - title: Statistical genetics and genomics
-      items:
-        - Bioinformatics, GWAS and post-GWAS fine mapping
-        - Multi-omics integration across coding and noncoding RNA, epigenomics and proteomics
-    - title: Methodology
-      items:
-        - Meta-analysis and data integration across omics and other data types
-        - Statistical learning and high-dimensional variable selection
-        - Bayesian hierarchical modeling
-        - Survival data analysis
-    - title: Applications
-      items:
-        - Cancer, neuroscience, psychiatry and addiction
-        - Infectious disease and epidemiology
+    experience:
+      - company: University of Maryland, College Park
+        position: Associate Professor of Biostatistics
+        location: Department of Epidemiology and Biostatistics
+        start_date: 2024-08
+        end_date: present
+      - company: University of Maryland School of Medicine
+        position: Assistant Professor of Psychiatry
+        location: Maryland Psychiatric Research Center, Baltimore
+        start_date: 2024-02
+        end_date: present
+      - company: UM Greenebaum Comprehensive Cancer Center
+        position: Associate Member
+        location: Baltimore, MD
+        start_date: 2021-03
+        end_date: present
+      - company: Maryland Population Research Center
+        position: Affiliate
+        location: College Park, MD
+        start_date: 2018-12
+        end_date: present
+      - company: University of Maryland, College Park
+        position: Assistant Professor of Biostatistics
+        location: Department of Epidemiology and Biostatistics
+        start_date: 2018-08
+        end_date: 2024-07
 
-- title: Selected Research Support
-  type: time_table
-  contents:
-    - title: A novel transcriptome-connectome approach to study the neurogenetic mechanism of nicotine and cannabis addiction
-      institution: NIH/NIDA K01DA059603 — Principal Investigator
-      year: 2024 - 2028
-      description:
-        - Total direct costs $653,024
-    - title: Genetic and lifestyle risk factors of accelerated brain aging in severe mental illness
-      institution: Grand Challenges Grant, University of Maryland — Principal Investigator
-      year: 2023 - 2026
-      description:
-        - A multimodal and multi-omics approach. Total direct costs $150,000
-    - title: A Multivariate Mediation and Deep Learning Framework for Genome-Connectome-Substance Use Research
-      institution: NIH/NIDA DP1DA048968 — Site PI
-      year: 2019 - 2024
-    - title: Solar-Eclipse Computational Tools for Imaging Genetics
-      institution: NIH/NIBIB R01EB015611 — Site PI
-      year: 2021 - 2024
-    - title: NIAID Centers of Excellence for Influenza Research and Response (CEIRR)
-      institution: NIH/NIAID 75N93021C00014 — Co-Investigator
-      year: 2021 - 2028
-    - title: Peer-Delivered Behavioral Activation Intervention for Polysubstance Use in Mobile Telemedicine OUD Treatment
-      institution: NIH/NIDA R01DA057443 — Co-Investigator
-      year: 2022 - 2027
-    - title: Stepped Care, Peer-Delivered Intervention to Improve ART Adherence and SUD in Primary Care
-      institution: NIH/NIDA R01DA056102 — Co-Investigator
-      year: 2022 - 2027
+    research_interests:
+      - bullet: Statistical genetics, GWAS and post-GWAS fine mapping
+      - bullet: Multi-omics integration across coding and noncoding RNA, epigenomics and proteomics
+      - bullet: Meta-analysis and data integration of omics with imaging and other data types
+      - bullet: Statistical learning and high-dimensional variable selection
+      - bullet: Bayesian hierarchical modeling and survival analysis
+      - bullet: Applications in cancer, neuroscience, psychiatry, addiction and infectious disease
 
-- title: Teaching
-  type: time_table
-  contents:
-    - title: EPIB652 — Categorical Data Analysis
-      institution: University of Maryland
-      year: 2020 - 2024
-    - title: EPIB661 — Applied Multivariate Data Analysis
-      institution: University of Maryland
-      year: 2019 - 2023
-    - title: EPIB664 — Missing Data Analysis
-      institution: University of Maryland
-      year: 2019, 2022
-    - title: BIOST2094 — Advanced R Computing / Statistical Computing in R
-      institution: University of Pittsburgh
-      year: 2015, 2017
-    - title: BIOST2025 — Special Studies in Bayesian Data Analysis
-      institution: University of Pittsburgh
-      year: 2016
+    selected_research_support:
+      - name: A novel transcriptome-connectome approach to study the neurogenetic mechanism of nicotine and cannabis addiction
+        start_date: 2024-09
+        end_date: 2028-08
+        highlights:
+          - NIH/NIDA K01DA059603 — Principal Investigator. Total direct costs $653,024.
+      - name: Genetic and lifestyle risk factors of accelerated brain aging in severe mental illness
+        start_date: 2023-03
+        end_date: 2026-02
+        highlights:
+          - Grand Challenges Grant, University of Maryland — Principal Investigator. Total direct costs $150,000.
+      - name: NIAID Centers of Excellence for Influenza Research and Response (CEIRR)
+        start_date: 2021-04
+        end_date: 2028-03
+        highlights:
+          - NIH/NIAID 75N93021C00014 — Co-Investigator.
+      - name: Stepped Care, Peer-Delivered Intervention to Improve ART Adherence and SUD in Primary Care
+        start_date: 2022-08
+        end_date: 2027-06
+        highlights:
+          - NIH/NIDA R01DA056102 — Co-Investigator.
+      - name: Peer-Delivered Behavioral Activation Intervention for Polysubstance Use in Mobile Telemedicine OUD Treatment
+        start_date: 2022-09
+        end_date: 2027-09
+        highlights:
+          - NIH/NIDA R01DA057443 — Co-Investigator.
+      - name: A Multivariate Mediation and Deep Learning Framework for Genome-Connectome-Substance Use Research
+        start_date: 2019-09
+        end_date: 2024-08
+        highlights:
+          - NIH/NIDA DP1DA048968 — Site PI.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2025
-      items:
-        - Pitt School of Public Health Early Career Excellence Alumni Award
-    - year: 2023
-      items:
-        - Maryland Research Excellence Honoree, University of Maryland
-    - year: 2021
-      items:
-        - MPower BHHP Seed Grant, University of Maryland
-    - year: 2018
-      items:
-        - Delta Omega Membership, Delta Omega Honorary Society in Public Health
-    - year: 2017
-      items:
-        - Student Paper Award, ASA Section on Bayesian Statistical Science
-        - Student of the Year, ASA Pittsburgh Chapter
-        - Best Paper Award, Dahshu Data Science Symposium on Computational Precision Health
-        - Best Student Presentation Award, Department of Biostatistics, University of Pittsburgh
-    - year: 2016
-      items:
-        - Outstanding Graduate Student Researcher Award, Department of Biostatistics, University of Pittsburgh
+    teaching:
+      - label: EPIB652 — Categorical Data Analysis
+        details: University of Maryland, 2020–2024
+      - label: EPIB661 — Applied Multivariate Data Analysis
+        details: University of Maryland, 2019–2023
+      - label: EPIB664 — Missing Data Analysis
+        details: University of Maryland, 2019, 2022
+      - label: BIOST2094 — Advanced R Computing / Statistical Computing in R
+        details: University of Pittsburgh, 2015, 2017
+      - label: BIOST2025 — Special Studies in Bayesian Data Analysis
+        details: University of Pittsburgh, 2016
 
-- title: Professional Service
-  type: nested_list
-  contents:
-    - title: Editorial
-      items:
-        - Editorial Board, Imaging Neuroscience (2023 - now)
-        - Editorial Board, NeuroImage&#58; Reports (2021 - now)
-        - Guest Editor, Frontiers in Genetics — New analytical methods and applications for brain imaging genetics
-    - title: Grant review
-      items:
-        - NIH ad-hoc reviewer, Behavioral Genetics and Epidemiology study section (BGES)
-    - title: Conference organizing
-      items:
-        - Invited sessions at JSM 2023, ENAR 2023 and ICSA 2020
-        - Organizer, First UMD-SPH Conference on Big Data in Public Health (2020)
-    - title: Committees
-      items:
-        - ICSA Awards Nomination Committee
-        - EPIB Graduate Admissions, Curriculum, and PhD Comprehensive Exam Committees
+    honors_and_awards:
+      - label: "2025"
+        details: Pitt School of Public Health Early Career Excellence Alumni Award
+      - label: "2023"
+        details: Maryland Research Excellence Honoree, University of Maryland
+      - label: "2021"
+        details: MPower BHHP Seed Grant, University of Maryland
+      - label: "2018"
+        details: Delta Omega Membership, Delta Omega Honorary Society in Public Health
+      - label: "2017"
+        details: Student Paper Award, ASA Section on Bayesian Statistical Science; Student of the Year, ASA Pittsburgh Chapter; Best Paper Award, Dahshu Computational Precision Health
+      - label: "2016"
+        details: Outstanding Graduate Student Researcher Award, Department of Biostatistics, University of Pittsburgh
 
-- title: Skills
-  type: list
-  contents:
-    - R, SAS, Stata, C++, Python, UNIX shell scripting
+    professional_service:
+      - bullet: "Editorial Board, Imaging Neuroscience (2023–present) and NeuroImage: Reports (2021–present)"
+      - bullet: Guest Editor, Frontiers in Genetics — New analytical methods and applications for brain imaging genetics
+      - bullet: NIH ad-hoc reviewer, Behavioral Genetics and Epidemiology study section (BGES)
+      - bullet: ICSA Awards Nomination Committee
+      - bullet: Organizer, First UMD-SPH Conference on Big Data in Public Health (2020)
+      - bullet: Invited session organizer at JSM 2023, ENAR 2023 and ICSA 2020
 
-- title: Other Interests
-  type: list
-  contents:
-    - Writing, basketball and soccer
+    skills:
+      - label: Programming
+        details: R, SAS, Stata, C++, Python, UNIX shell scripting
+      - label: Memberships
+        details: American Statistical Association, ENAR International Biometric Society, International Chinese Statistical Association
